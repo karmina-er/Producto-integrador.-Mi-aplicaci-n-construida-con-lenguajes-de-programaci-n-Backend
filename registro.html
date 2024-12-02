@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div>
+        <h1>Formularo de Registro</h1>
+    </div>
+    <form action="usuarios.php" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="name" required>
+        <br>
+        <label for="correo">Correo</label>
+        <input type="email" id="correo" name="user" required>
+        <br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="pwd" required>
+        <br>
+        <input type="submit" name="boton" value="Aceptar" required>
+    </form>
+<p>¿Ya tienes cuenta? <a href="index.html">Iniciar Sesion</a></p>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</body>
+</html>
